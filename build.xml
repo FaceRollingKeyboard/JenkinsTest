@@ -17,7 +17,7 @@
 		<fileset dir = "${report folder}">
 			<include name = "TEST-*.xml"/>
 		</fileset>
-		<report format = "frames" todir = "${report folder}">
+		<report format = "frames" todir = "${report folder}"/>
 	</junitreport>
 </target>
 </project>
